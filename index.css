@@ -6,6 +6,8 @@
 }
 
 body{
+    font-family: 'Apercu Pro Regular' !important;
+    font-size: 16px;
     
 }
 
@@ -61,3 +63,56 @@ ul {
     margin: auto;
     margin-left: 10%;
 }
+
+/* section-2 */
+
+.section-2{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    
+}
+
+.section-2 > img {
+    /* width: 60%; */
+    height: 100%;
+}
+
+.section-2-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12rem; 
+    text-align: start;
+
+
+    border: 1px solid white;
+     
+}
+
+.section-2-right > h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid red;
+}
+
+.section-2-right > p{
+    font-size: 1.3rem;
+    font-weight: ;
+    margin-left: 4rem;
+    line-height: 2rem;
+    padding-right: 2rem;
+    border: 1px solid blue;
+     
+}
+
+.section-2-right > button {
+    margin: 1rem 2rem 0 4rem; 
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+
+}
+
