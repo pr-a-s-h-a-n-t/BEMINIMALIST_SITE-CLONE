@@ -5,6 +5,12 @@
 
 }
 
+html {
+
+    zoom: 0.55;
+
+}
+
 body{
     font-family: 'Apercu Pro Regular' !important;
     font-size: 16px;
