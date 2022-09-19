@@ -6,9 +6,8 @@
 }
 
 body{
-    font-family: 'Apercu Pro Regular' !important;
-    font-size: 16px;
-    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 ul {
@@ -20,7 +19,7 @@ ul {
     display: flex;
     height: 12vh;
     vertical-align: middle;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     background-color: rgb(0 0 0);
     color: white;
     /* justify-content: space-between; */
@@ -81,7 +80,7 @@ ul {
 .section-2-right{
     display: flex;
     flex-direction: column;
-    padding-top: 12rem; 
+    padding-top: 10rem; 
     text-align: start;
 
 
@@ -90,29 +89,35 @@ ul {
 }
 
 .section-2-right > h1{
-    font-size: 3.5rem;
-    font-weight: 800;
-    margin: 2rem;
-    padding: 2rem;
-    border: 1px solid red;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    line-height: 3.2rem;
+    /* border: 1px solid red; */
+    width: 85%;
 }
 
 .section-2-right > p{
-    font-size: 1.3rem;
-    font-weight: ;
-    margin-left: 4rem;
-    line-height: 2rem;
+    width: 90%;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    line-height: 1.5rem;
     padding-right: 2rem;
-    border: 1px solid blue;
+    border: 1px solid red;
      
 }
 
 .section-2-right > button {
-    margin: 1rem 2rem 0 4rem; 
-    padding: 1.5rem;
+    margin: 1rem 2.8rem 0 2rem; 
+    padding: 0.7rem;
     font-size: 1.3rem;
     background-color: black;
     color: white;
 
 }
 
+.section-3{
+     width: 100%;
+     height: 100vh;
+}
