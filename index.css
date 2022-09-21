@@ -12,6 +12,7 @@ body{
 
 ul {
     list-style: none;
+    
 }
 
 .navigation {
@@ -159,4 +160,82 @@ ul {
     width: 100%;
     padding: 0.75rem 0 ;
     border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+
+/* footer section */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 78vh;
+    width: 100%;
+    padding: 5rem 10rem 0 5rem;
+}
+.footer-subsection{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+     
+}
+
+.about > h4{
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.about > ul > li{
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+.help > h4{
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.help > ul > li{
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color: #676986;
+    height: 1px;
+    margin:3rem 0 0 2rem;
+    
+}
+
+.footer > .copyright > span{
+    margin-left: 2rem;
+
+}
+/* 
+.footer > .copyright > span > i+i{
+    margin-right: 2rem;
+} */
+
+#insta{
+    margin-left: 0.7rem;
+}
+
+.footer > .copyright > span > i {
+    margin: 2rem 0 2rem 0;
+    font-size: 1.3rem;
+
+}
+
+.copyright > ul > li{
+    margin-bottom: 1rem;
+    margin-left: -0.2rem;
 }
