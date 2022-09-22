@@ -239,3 +239,81 @@ hr {
     margin-bottom: 1rem;
     margin-left: -0.2rem;
 }
+
+
+.section-5{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    padding: 3rem 12rem;
+    border: 1px solid red;
+    gap: 1rem;
+}
+
+.feedback-cart{
+    width: 32%;
+    height: 30vh;
+    border: 1px solid red;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    /* text-align:start; */
+    
+    
+    
+}
+
+.feedback-cart > p{
+    /* width: 90%;
+    height: 50%; */
+    /* margin-left: 0.5rem; */
+    border: 1px solid red;
+     
+    
+}
+
+.feedback-cart > h4{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.section-4{
+    width: 100%;
+    height: 60vh;
+    border: 1px solid red;
+    /* text-align: center; */
+    padding-top: 12rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.section-4 > h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+     
+}
+
+.section-4-wrapper{
+    display: flex;
+    border: 1px solid green;
+    /* gap: 1.5rem; */
+    justify-content: space-between;
+
+}
+
+.section-4-wrapper-item{
+    width:30%;
+    height: 25vh;
+    border: 1px solid red;
+    align-items: flex-start;
+}
+
+.section-4-wrapper-item > h5{
+    padding: 1rem 0;
+
+}
+
+.section-4-wrapper-item > img{
+    width: 3rem;
+    height: 3rem;
+}
