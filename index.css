@@ -56,12 +56,23 @@ ul {
 .navigation-list-right> li {
     margin: auto;
     padding: 1rem;
+    font-size: 2rem;
+    /* font-weight: 200; */
+}
+
+.navigation-list-right> li > i{
+    /* font-weight: 550; */
 }
 
 .navigation > span {
     /* align-items: center; */
     margin: auto;
     margin-left: 10%;
+     
+}
+
+.navigation > span > img{
+    width: 8rem;
 }
 
 /* section-2 */
@@ -248,6 +259,7 @@ hr {
     padding: 3rem 12rem;
     /* border: 1px solid red; */
     gap: 1rem;
+    background-color: #eee;
 }
 
 .feedback-cart{
@@ -257,6 +269,7 @@ hr {
     padding: 3rem;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255 255 255);
     /* text-align:start; */
     
     
@@ -318,6 +331,20 @@ hr {
     height: 3rem;
 }
 
+/* temp section */
+
+ 
+
+#serumicon-img{
+    width: 1.5rem;
+    height: 3rem;
+}
+
+/* temp section */
+
+
+ 
+
 .section-4{
     width: 100%;
     height: 100vh;
@@ -327,13 +354,13 @@ hr {
 
 }
 
-.section-4 > h3{
+.section-4 > h4{
     margin: 1rem 0;
 
 }
 
 .section-4 > p{
-    margin: 1rem 0;
+    margin: 1rem 0 2.5rem;
 }
 
 .section-4 > .img{
