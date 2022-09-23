@@ -141,7 +141,7 @@ ul {
 .section-3 > .container{
     /* border: 1px solid red; */
     display: flex;
-    height: 65vh;
+    height: 70vh;
     width: 100%;
     gap: 1.5rem;
 }
@@ -163,10 +163,25 @@ ul {
 
 .container-cart > p{
     margin: 1rem;
+    color: #232323;
+}
+
+#face_cleanser{
+    line-height: 1.5rem;
+}
+
+#face_cleanser-button{
+    width: 100%;
+    padding: 0.75rem 0 ;
+    /* border: 1px solid white; */
+    background-color: black;
+    color: white;
+    margin-top: -0.08rem;
+
 }
 
 .container-cart > span > p{
-    margin-bottom: 1rem;
+    margin-bottom: 0.85rem;
 }
 
 .container-cart > button{
@@ -175,6 +190,7 @@ ul {
     /* border: 1px solid white; */
     background-color: black;
     color: white;
+    margin-top: 1.8rem;
 }
 
 
@@ -279,6 +295,8 @@ hr {
 }
 
 .feedback-cart > p{
+    font-size: 0.9rem;
+    text-align:justify;
     /* width: 90%;
     height: 50%; */
     /* margin-left: 0.5rem; */
